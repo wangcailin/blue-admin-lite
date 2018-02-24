@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'bloomberg'                                             => '彭博',
     'User id'                                               => '会员ID',
     'Username'                                              => '用户名',
     'Nickname'                                              => '昵称',
