@@ -97,6 +97,7 @@
 html:not([style-scope]):not(.style-scope).freebird,
 body:not([style-scope]):not(.style-scope).freebirdLightBackground {
     background-color: rgb(224, 247, 250);
+    cursor:default;
 }
 
 .freebirdThemedDialog .exportTitleBarFullScreen,
