@@ -3,6 +3,7 @@
 /vendor/
 /runtime/*
 /addons/*
+application/database.php
 /public/assets/libs/
 /public/assets/addons/*
 /public/uploads/*

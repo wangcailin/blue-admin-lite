@@ -32,6 +32,7 @@ class Form extends Frontend
     public function submit()
     {
         $data = input();
+        $data['ip'] = get_proxy_ip();
         $this->model->save($data);
         return 1;
     }

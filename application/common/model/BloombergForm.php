@@ -24,16 +24,6 @@ class BloombergForm extends Model
     ];
 
 
-    protected static function init()
-    {
-        BloombergForm::beforeInsert(function ($data) {
-            $data['ip'] = get_proxy_ip();
-            return $data;
-        });
-    }
-
-
-
     public function getCreateTimeTextAttr($value, $data)
     {
         $value = $value ? $value : $data['create_time'];
